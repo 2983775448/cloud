@@ -6,15 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@Scope(scopeName="refresh")
-public class ClientConfigController {
+@Scope(scopeName = "refresh")
+public class ConfigClientController {
 
     @Value("${config.info}")
     private String configInfo;
 
-    @RequestMapping("/getConfigInfo")
+    @RequestMapping("/configInfo")
     private String getConfigInfo(){
         return configInfo;
     }
-
 }

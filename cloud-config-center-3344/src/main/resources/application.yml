@@ -20,10 +20,16 @@ spring:
               - springcloud-config
             ####读取分支
       label: master
+
   rabbitmq:
     host: 47.97.178.43
     port: 5672
     username: guest
     password: guest
 
-
+##rabbitmq相关配置,暴露bus刷新配置的端点
+management:
+  endpoints: #暴露bus刷新配置的端点
+    web:
+      exposure:
+        include: 'bus-refresh'
