@@ -1,0 +1,19 @@
+server:
+  port: 800
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    appname: consumer-order800
+spring:
+  application:
+    name: consumer-openfeign-order
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+
+logging:
+  level:
+    com.zj.service.ProductService: debug
