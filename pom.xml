@@ -24,6 +24,17 @@
       <module>cloud-config-center-3344</module>
     <module>cloud-config-client-3355</module>
       <module>cloud-config-client-3366</module>
+    <module>cloud-stream-rabbitmq-provider8801</module>
+      <module>cloud-stream-rabbitmq-customer8802</module>
+      <module>cloud-stream-rabbitmq-customer8803</module>
+    <module>cloudalibaba-provider-payment9001</module>
+    <module>cloudalibaba-provider-payment9002</module>
+      <module>cloudalibaba-cosumer-nacos83</module>
+    <module>cloudalibaba-config-nacos-client3377</module>
+      <module>cloudalibaba-sentinel-service8401</module>
+      <module>cloudalibaba-provider-payment9003</module>
+    <module>cloudalibaba-provider-payment9004</module>
+    <module>cloudalibaba-nacos-consumer84</module>
   </modules>
   <packaging>pom</packaging>
 
